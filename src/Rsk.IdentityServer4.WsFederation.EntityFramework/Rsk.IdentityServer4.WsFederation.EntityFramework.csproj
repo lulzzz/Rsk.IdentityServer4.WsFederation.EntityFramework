@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <PackageId>Rsk.IdentityServer4.WsFederation.EntityFramework</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.0.1" />
+    <PackageReference Include="Rsk.IdentityServer4.WsFederation" Version="2.0.0.3" />
+  </ItemGroup>
+
+</Project>

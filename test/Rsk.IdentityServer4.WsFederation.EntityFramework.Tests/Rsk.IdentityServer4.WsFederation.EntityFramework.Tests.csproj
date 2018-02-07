@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="4.19.3" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
+    <PackageReference Include="xunit" Version="2.2.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
+    <PackageReference Include="Moq" Version="4.7.99" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.1" />
+    <PackageReference Include="Rsk.IdentityServer4.WsFederation" Version="2.0.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Rsk.IdentityServer4.WsFederation.EntityFramework\Rsk.IdentityServer4.WsFederation.EntityFramework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\idsrv3test.cer">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

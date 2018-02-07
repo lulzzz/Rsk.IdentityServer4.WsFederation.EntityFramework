@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27323.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FB631196-F657-4081-883D-A11FEB407212}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4F8A6B7F-8151-47EE-911B-9A0E4F779C25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rsk.IdentityServer4.WsFederation.EntityFramework", "src\Rsk.IdentityServer4.WsFederation.EntityFramework\Rsk.IdentityServer4.WsFederation.EntityFramework.csproj", "{E9522552-A09E-48E9-994A-7015538C06B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rsk.IdentityServer4.WsFederation.EntityFramework.Tests", "test\Rsk.IdentityServer4.WsFederation.EntityFramework.Tests\Rsk.IdentityServer4.WsFederation.EntityFramework.Tests.csproj", "{F401F12B-905C-4981-81AB-1D705719233D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9522552-A09E-48E9-994A-7015538C06B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9522552-A09E-48E9-994A-7015538C06B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9522552-A09E-48E9-994A-7015538C06B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9522552-A09E-48E9-994A-7015538C06B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F401F12B-905C-4981-81AB-1D705719233D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F401F12B-905C-4981-81AB-1D705719233D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F401F12B-905C-4981-81AB-1D705719233D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F401F12B-905C-4981-81AB-1D705719233D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9522552-A09E-48E9-994A-7015538C06B8} = {FB631196-F657-4081-883D-A11FEB407212}
+		{F401F12B-905C-4981-81AB-1D705719233D} = {4F8A6B7F-8151-47EE-911B-9A0E4F779C25}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4F8719E-2F06-4CA2-93B0-421C5E6BD46F}
+	EndGlobalSection
+EndGlobal
